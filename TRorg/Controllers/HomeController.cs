@@ -17,14 +17,14 @@ namespace TRorg.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Turst Registries are needed for all parties to the framework to recognize each other.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "How to contact us, or join in the work group.";
 
             return View();
         }

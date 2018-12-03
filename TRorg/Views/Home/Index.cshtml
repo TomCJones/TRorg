@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home ";
 }
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
@@ -10,11 +10,11 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
+            <img src="~/images/banner1.png" alt="TR is Trust Registry" class="img-responsive" height="320" width="1222" />
             <div class="carousel-caption" role="option">
                 <p>
-                    Learn how to build ASP.NET apps that can run anywhere.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
+                    The source of trust for the Federation.
+                    <a class="btn btn-default" href="https://tcwiki.azurewebsites.net/index.php?title=Federation_Trust_Registry">
                         Learn More
                     </a>
                 </p>
@@ -24,8 +24,8 @@
             <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
             <div class="carousel-caption" role="option">
                 <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
+                    Become a member of the federation.
+                    <a class="btn btn-default" href="https://idefregistry.edufoundation.kantarainitiative.org/faqs/">
                         Learn More
                     </a>
                 </p>
@@ -35,8 +35,8 @@
             <img src="~/images/banner3.svg" alt="Microsoft Azure" class="img-responsive" />
             <div class="carousel-caption" role="option">
                 <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
+                    See the rules for joining now.
+                    <a class="btn btn-default" href="https://idefregistry.edufoundation.kantarainitiative.org/faqs/">
                         Learn More
                     </a>
                 </p>
@@ -54,41 +54,35 @@
 </div>
 
 <div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
+    <div class="col-md-4">
+        <h2>Organization Registery of Trusted Identifiers</h2>
         <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
+            <li>Go to <a href="http://trustregistry.us">the working Trust Registry for the US</a></li>
+            <li>Go <a asp-area="" asp-controller="Registry" asp-action="Index">query the Database</a></li>
+            <li>The working definition can be viewed at <a href="https://tcwiki.azurewebsites.net/index.php?title=Federation_Trust_Registry">  Federation Trust Registry.</a></li>
+            <li>See the <a href="~/images/IDEFdata.json"> IDEF registry as JSON blob</a></li>
+            <li>The code for this page is supplied by <a href="http://tomjones.us"> tomjones.us</a></li>
+            <li>The Identity Management wiki can be found <a href="https://tcwiki.azurewebsites.net/index.php?title=Main_Page">here</a></li>
         </ul>
     </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
+    <div class="col-md-4">
+        <h2>About the IDEF</h2>
         <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
+            <li><a href="https://kantarainitiative.org/groups/idef/">View or join the Kantara IDEF work group here.</a>(maitenace of the existing framework.)</li>
+            <li><a href="https://wiki.idesg.org/wiki/index.php/Main_Page">The wiki for the IDEF inherited from the IDESG</a></li>
+            <li><a href="https://wiki.idesg.org/wiki/index.php/Framework_Management_Office">The IDEF Framework Management Office</a> (somewhat out-of-date)</li>
+            <li><a href="https://idesg.edufoundation.kantarainitiative.org/">The old IDESG web site</a>(definitly out-of-date)</li>
         </ul>
     </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
+    <div class="col-md-4">
+        <h2>Registry Standardization</h2>
         <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
+            <li><a href="https://IDEFregistry.org">The main page of the IDEF registry</a></li>
+            <li><a href="http://www.tscp.org/trust-framework-services/ ">Trust Services of TSCP the Transglobal Secure Collaboration Program</a> (mostly focused on NATO A&D industry)</li>
+            <li><a href="https://wiki.idesg.org/wiki/index.php/Framework_Profiles">The Identity Ecosystem Framework</a> will need fine-grained specifications for applying its principles to specific vertical industry and horizontal community requirements.</a></li>
+            <li><a href="https://wiki.idesg.org/wiki/index.php/Health_Care_Profile">This Health Care Profile</a> is one of the Framework Profiles that will allow developers of code and user experience to determine if their systems are compliant with the framework.</li>
+            <li><a href="https://wiki.idesg.org/wiki/index.php/Financial_Profile">A profile of the Identity Ecosystem Framework Profiles for Financial Services</a></li>
         </ul>
     </div>
-    <div class="col-md-3">
-        <h2>Run &amp; Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
+
 </div>
